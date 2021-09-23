@@ -1,0 +1,185 @@
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+font-family: "Montserrat";
+}
+
+img{
+  width: 200px;
+}
+
+/* .project-image{
+  width: 20%;
+  border-radius:20%;
+  margin: 20px;
+}
+ */
+
+/* .img-group{
+   width:60;
+} */
+
+.color-section{
+  background-color: #440047;
+  color:#fff;
+}
+
+.white-section{
+  background-color: #FBECEC;
+}
+
+#title{
+
+  /* text-align: right; */
+}
+
+#title .container-fluid{ /*this method is useful when we want to change the propoerty only for this section but not for other sections*/
+  padding:3% 15% 7%;
+}
+
+.navbar{
+    padding-bottom: 0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-family: Montserrat;
+}
+
+.img-group{
+  padding: 30px;
+  width:500px;
+  /* position: absolute; */
+
+}
+
+
+.big-heading{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  /* color: #FEE2B3; */
+  line-height: 1.5;
+}
+
+#basics{
+
+  position: relative;
+  /* z-index:1; */
+}
+
+.mid-icons{
+  color:#59405C;
+  padding:5%;
+  /* margin-bottom: 1rem; */
+}
+
+.mid-icons:hover{
+  color:#440047;
+
+}
+
+.basics-h3{
+  font-weight: 600;
+}
+
+#projects{
+
+
+}
+
+.carousel-item{
+  padding: 7% 20%;
+}
+
+.Project-h2{
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 200px;
+}
+
+#press{
+
+
+    padding-bottom: 4%;
+}
+
+.press-images{
+width: 10%;
+margin: 20px 20px 50px;
+border-radius:20%;
+}
+
+
+#ongoing-projects{
+  padding:100px;
+
+}
+
+.col-ongoing-projects{
+padding :3% 2%  ;
+}
+
+.ongoing-h2{
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.ongoing-h3{
+  font-weight: 600;
+}
+
+#cta{
+  padding:7% 15%;
+
+
+}
+
+
+
+.button-download{
+  margin: 5% 3% 5% 0;
+}
+
+#footer{
+
+}
+.icons-bar{
+  padding: 100px 200px;
+
+
+  margin: 0;
+}
+
+.fab{
+  padding: 0 10px 10px 10px;
+}
+
+.footer-copyright{
+  font-size: 0.5rem;
+}
+
+@media (max-width:1000px){
+  #title{
+    text-align: center;
+  }
+  .img-group{
+    position: static;
+  }
+}
